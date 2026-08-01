@@ -1,0 +1,18 @@
+# Setup things to ignore for the repository
+
+# Ignore directories
+comms/
+database/
+gcodes/
+logs/
+
+# Ignore files
+.moonraker.uuid
+config/.moonraker.conf.bkp
+misc/usb.ids
+
+# Ignore internal backups of the printer.cfg
+config/printer-20[0-9][0-9][0-9][0-9][0-9][0-9]_*.cfg
+
+# Ignore all swap files. Might need to adjust this.
+*.swp
