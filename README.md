@@ -26,9 +26,9 @@ I am using a Pico input shaper as well to calibrate the printer as needed.
 
 ### Order
 
-1. Endstop Calibration
+1. Endstop Calibration - Calibrates the endstop switches on each tower. Probe or bed/extruder heating not required.
+1. Probe Calibration - Calibrates the distance from the probe to the nozzle. Start with the probe on, heat the nozzle and the bed. Once the probe switch is triggered, remove the probe and adjust the z-offset so that there's just barely any friction on a standard piece of paper.
 1. Delta Calibration (Probe required; heat the bed)
-1. Z-Stop Calibration (Probe required; heat the bed)
 1. Bedmesh Calibration (Probe required; heat the bed)
 
 # Acknowledgements
