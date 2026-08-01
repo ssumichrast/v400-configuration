@@ -22,6 +22,15 @@ Since Klipper runs as the user `klipper` and it does not have my Github configur
 
 I am using a Pico input shaper as well to calibrate the printer as needed.
 
+## Printer Calibration
+
+### Order
+
+1. Endstop Calibration
+1. Delta Calibration (Probe required; heat the bed)
+1. Z-Stop Calibration (Probe required; heat the bed)
+1. Bedmesh Calibration (Probe required; heat the bed)
+
 # Acknowledgements
 
 The configuration built here is based off work from [Guilouz](https://www.github.com/Guilouz).
