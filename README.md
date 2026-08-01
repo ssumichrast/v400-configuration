@@ -14,6 +14,10 @@ My V400 is using a [Raspberry Pi 3b](https://www.raspberrypi.com/products/raspbe
 
 Using external Klipper means also needing to flash the MKS board with updated Klipper code as it's generated. This is done using [Klipper Install And Update Helper (KIAUH)](https://github.com/dw-0/kiauh). Once complete, the firmware is placed on a micro SD card and the printer rebooted. This then lets the Raspberry Pi with a modern Klipper access the MKS board and control the printer. All functions of the V400 are accessible by using these configuration files.
 
+## Github Credentials
+
+Since Klipper runs as the user `klipper` and it does not have my Github configuration, I'm using a Fine-Grained Token to access this library. The credential is stored in Github Credential Manager and will be updated whenever the key expires and needs to be reset.
+
 ## Using Input Shaper
 
 I am using a Pico input shaper as well to calibrate the printer as needed.
